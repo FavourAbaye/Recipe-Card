@@ -1,0 +1,93 @@
+body {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 1.5rem;
+    padding: 10px 10px;
+}
+
+.recipe-card {
+    background-color: white;
+    box-shadow: 0, 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    border-radius: 12px;
+    line-height: 1.7;
+}
+
+img {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    object-fit: cover;
+}
+
+.card-data {
+    margin: 0 1.5rem .5rem;
+    font-size: 13px;
+}
+
+.dessert {
+    display: inline-block;
+    color: white;
+    background-color: burlywood;
+    font-size: 15px;
+    padding-inline: 15px;
+    font-weight: 500;
+    margin: 0 1.5rem 2rem 1.5rem;
+    border-radius: 19px;
+    position: relative;
+    left: -30%;
+}
+
+.card-stats {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.card-stats li {
+    display: flex;
+    align-items: center;
+    margin: 2rem;
+    color: grey;
+}
+
+.card-stats i {
+    margin: 1px;
+}
+
+h1 {
+   color: burlywood; 
+   font-size: 25px;
+   font-family: Tahoma;
+   border-bottom: 2px solid burlywood;
+}
+
+.text {
+    color: #000;
+    font-size: 15px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+button {
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    background: burlywood;
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+    width: 100%;
+    outline: 0;
+    border: none;
+    border-radius: 5px 5px 5px 5px;
+}
+
+button:hover, a:hover {
+    opacity: 0.7;
+}
